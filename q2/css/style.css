@@ -1,0 +1,115 @@
+@font-face {
+  src: url(font/STARWARS/STARWARS.ttf);
+font-family: STARWARS;
+}
+
+body {
+  background-image: url('../img/star.jpg');
+  background-repeat:space;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h2{
+font-family: 'Cinzel', serif;
+font-size: 60px;
+color: white;
+
+
+}
+
+p{
+font-family:  'Cinzel', serif;
+font-size: 25px;
+color: white;
+margin: auto;
+}
+
+button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  opacity: 0.2;
+}
+
+
+img {
+
+  width: 100%;
+  height: auto;
+}
+
+background-image:url('img/space.jpg');
+background-repeat:no-repeat;
+background-size:contain;
+background-position:center;
+
+.space {
+width: 300px
+background-image: url(img/space.jpg);
+background-size: 100%;
+}
+
+.div{
+
+}
+
+
+.back{
+position: absolute;
+image-orientation: flex;
+max-width: 100%;
+}
+
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.body.home{background-image:url(img/star.jpg);
+}
+
+img{
+max-width:50%;
+max-height: 100%
+}
